@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(46, 45, 45);
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

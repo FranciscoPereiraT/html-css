@@ -6,16 +6,63 @@
     <title>Posicionamento</title>
     <style>
         body{
+            height: 85vh;
+        }
+      div.bloco{
             background-image: url("https://github.com/gustavoguanabara/html-css/raw/master/imagens/mascote.png");
-            background-size: 100px 100px;
             background-repeat: no-repeat;
-            height: 90vh;
-            background-position: bottom center;
+            background-size: 100px 100px;
+            height: 100px;
+            width: 100%;
+            margin: 2px;
+            
+            
+           
+        }
+        div#q1{
+            background-position: left top;
+           
+        }
+        div#q2{
+            background-position: left center;
+            
+        }
+        div#q3{
+            background-position: left bottom;
+           
+        }
+        div#q4{
+            background-position: center top;
+           
+        }
+        div#q5{
+            background-position: center center;
+           
+        }
+        div#q6{
+            background-position: center bottom;
+           
+        }
+        div#q7{
+            background-position: right top;
+           
+        }
+        div#q8{
+            background-position: right center;
+           
+        }
+        div#q9{
+            background-position: right bottom;
+           
         }
     </style>
-
 </head>
 <body>
-   
+    <div class="bloco" id="q1"><div class="bloco" id="q4"><div class="bloco" id="q7"></div></div></div>
+    <div class="bloco" id="q2"><div class="bloco" id="q5"><div class="bloco" id="q8"></div></div></div>
+    <div class="bloco" id="q3"><div class="bloco" id="q6"><div class="bloco" id="q9"></div></div></div>
+    
+    
+    
 </body>
 </html>
